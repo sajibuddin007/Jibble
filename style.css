@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.left-side{
+    width: 150px;
+    height: 100vh;
+    position: relative;
+    border-right: 1px solid #4b4242;
+}
+.logo{
+    margin: 10px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+}
+.logo i{
+    color: #ff1717;
+}
+.left-nav{
+    margin-top: 2.5rem;
+    border-bottom: 1px solid black;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.L_n-1,
+.L_n-2,
+.L_n-3{
+    display: flex;
+    gap: 5px;
+}
+.L_n-1,
+.L_n-3{
+    padding-left: 10px;
+    opacity: .7;
+}
+.L_n-2{
+    border-left: 3px solid black;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.L_n-1 i,
+.L_n-2 i,
+.L_n-3 i{
+    font-size: 1.2rem;
+}
+.L_n-1 p,
+.L_n-2 p,
+.L_n-3 p
+{
+    font-size: .7rem;
+}
+.left-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 230px;
+}
+.left-footer{
+    width: 100%;
+    height: 150px;
+}
+.gta{
+    display: flex;
+    gap: 5px;
+    padding-left: 50px;
+    width: 100%;
+    height: 40px;
+    background-color: #e4e2e2;
+    align-items: center;
+    border-bottom: 1px solid #979191;
+}
+.gta i{
+    font-size: 1.2rem;
+}
+.gta p{
+    font-size: .7rem;
+}
+.ri-list-check{
+    color: red;
+}
+.ft-profile{
+    display: flex;
+    padding-left: 20px;
+    margin: 10px 0;
+    height: 40px;
+    border-bottom: 1px solid #979191;
+}
+.ft-profile img{
+    border-radius: 20px;
+    width: 30px; 
+    height: 30px;
+    padding-right: 3px;
+}
+.ft-profile .p1{
+    font-size: .8rem;
+}
+.ft-profile .p2{
+    font-size: .6rem;
+}
+.collapse{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+.collapse i{
+    font-size: 1.2rem;
+}
+.collapse p{
+    font-size: .9rem;
+}
+/* right side style start here */
+.right-side{
+    width:100% ;
+    height: 100vh;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    padding: 20px 10px;
+    border-bottom: 1px solid #979191;
+}
+.r-nav-icon{
+    display: flex;
+    margin-right: 30px;
+    gap: 10px;
+}
+.r-nav-icon p{
+    font-size: .8rem;
+}
+.r-nav-icon i{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(53, 219, 109);
+    border-radius: 10px;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.right-main{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+.w-s{
+    border-bottom: 1px solid #303030;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.w-s .w-s_1{
+    font-size: .8rem;
+}
+.w-s .w-s_2{
+    font-size: .8rem;
+    color: #303030;
+}
+.t-e{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    border-left: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+}
+.t-e_1{
+    display: flex;
+    gap: 5px;
+    color: #333333;
+}
+.t-e_1 .text .text-1{
+    font-size: .9rem;
+}
+.t-e_1 .text .text-2{
+    font-size: .8rem;
+}
+.t-e_2 i{
+    border: 1px solid;
+    padding: 2px 3px;
+    margin: -3px;
+}
+.main_2{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #333333;
+}
+.main_2-left{
+    display: flex;
+    width: 200px;
+    border-right: 1px solid #303030;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+}
+.main_2-left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main_2-left .main_2-left-detl .name{
+    font-size: .9rem;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+.main_2-left .main_2-left-detl .work{
+    font-size: .7rem;
+    font-weight: 200;
+    color: #4b4242;
+}
+.main_2-right{
+    display: flex;
+    align-items: center;
+    gap: 3.3rem;
+    padding-left: 20px;
+}
+.main-2_detls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+}
+.main-2_detls .p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.main-2_detls .p2{
+    font-size: .7rem;
+    color: #333333;
+}
+.mark{
+    border-bottom: 2px solid red;
+    color: red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0  15px;
+}
+.mark .p2{
+    color: red;
+}
+/* body */
+.body-items{
+    width: 100%;
+    height: 71vh;
+}
+.body-lf{
+    width: 16.59%;
+    height: 100%;
+    border-right: 1px solid #333333;
+}
+.body-lf-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 18px 20px;
+    border-bottom: 1px solid #333333;
+}
+.body-lf-1 .letter-1{
+    font-size: .8rem;
+    color: #4b4242;
+    font-weight: 200px;
+    padding-bottom: 10px;
+}
+.letter-2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.body-lf-2{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px solid #333333;
+}
+.body-lf-2 .t-1{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.body-lf-2 .t-1 span{
+    padding-left: 5px;
+}
+.body-lf-2 .t-2{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.body-lf-2 .t-2 span{
+    padding-left: 30px;
+}
+.body-lf-2 .t-3{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.body-lf-2 .t-3 span{
+    padding-left: 65px;
+}
+.body-lf-2 .t-4{
+    font-size: 12px;
+}
+.body-items{
+    display: flex;
+}
+.body-rt{
+    width: 100%;
+    height: 60px;
+
+}
+.body_right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333333;
+}
+.body-rt_L{
+    display: flex;
+    align-items: center;
+}
+.body-rt_L .body-rt-logo{
+    padding: 0 5px;
+    margin: 0 10px ;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    background-color: #979191;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.body-rt_L .time{
+    font-size: 12px;
+    margin-right: 10px;
+}
+.body-rt_L .icon{
+    display: flex;
+    font-size: 10px;
+ 
+    border: 1px solid #ff6219;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+.body-rt_L .ri-time-zone-fill{
+    margin-left: 10px;
+    font-size: 11px;
+}
+.body-rt_R{
+    font-size: 12px;
+    margin-right: 20px;
+}
